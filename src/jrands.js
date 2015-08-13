@@ -37,17 +37,16 @@
    * console.log(i);
    * ```
    */
+  var jrands_mbig = 2147483647; // Int32.MaxValue;
+  var jrands_mseed = 161803398;
   function create(seed) {
     if (typeof seed === 'undefined') {
-      seed = Number(new Date());
+      seed = Number(new Date() % jrands_mbig);
     }
-    var jrands_mbig = 2147483647; // Int32.MaxValue;
-    var jrands_mseed = 161803398;
     var inext;
     var inextp;
     var seedArray = [];
-    var subtraction = Math.abs(seed);
-    var mj = jrands_mseed - subtraction;
+    var mj = jrands_mseed - Math.abs(seed);
     seedArray[55] = mj;
     var mk = 1;
     for (var i = 1; i < 55; i++) {

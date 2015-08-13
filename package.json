@@ -2,7 +2,7 @@
   "name": "jrands",
   "title": "Seed Random",
   "description": "The random function of the constructor can specify random seeds",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "http://github.com/zswang/jrands",
   "main": "jrands.js",
   "author": {
