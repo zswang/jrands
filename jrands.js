@@ -5,8 +5,8 @@
    * The random function of the constructor can specify random seeds
    * @author
    *   zswang (http://weibo.com/zswang)
-   * @version 0.0.1
-   * @date 2015-08-14
+   * @version 0.0.2
+   * @date 2018-02-08
    */
   /*<function name="create">*/
   /**
