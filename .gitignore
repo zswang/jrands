@@ -29,5 +29,4 @@ build/Release
 node_modules
 bower_components
 package-lock.json
-lib
 coverage
