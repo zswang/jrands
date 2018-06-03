@@ -1,13 +1,13 @@
 {
   "name": "jrands",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/zswang/jrands",
-  "authors": {
+  "author": {
     "name": "zswang",
     "url": "http://weibo.com/zswang"
   },
   "description": "The random function of the constructor can specify random seeds",
-  "main": "jrands.js",
+  "main": "lib/index.js",
   "moduleType": [
     "globals",
     "node"
@@ -23,13 +23,12 @@
     "requirejs": "2.1.15"
   },
   "ignore": [
+    "test",
     "tests",
     "src",
     "**/.*",
     "node_modules",
     "bower_components",
-    "app/components",
-    "test",
-    "tests"
+    "app/components"
   ]
 }
